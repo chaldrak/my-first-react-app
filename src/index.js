@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const name = 'Freddy AGBONA';
 root.render(
   <React.StrictMode>
-    <App />
+      {/* <App /> */}
+      <h1>Bonjour, {name} !</h1>
+      <p>Nous voici avec notre première page react !</p>
   </React.StrictMode>
 );
 
